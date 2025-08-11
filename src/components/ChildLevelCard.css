@@ -1,0 +1,45 @@
+/* src/components/ChildLevelCard.css */
+
+.child-level-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.child-level-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  background-color: #ffffff; /* White background for the card */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.child-level-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.child-level-card h4 {
+  font-size: 1.5em;
+  color: #3498db; /* A vibrant blue for the card titles, to stand out */
+  margin-bottom: 10px;
+}
+
+.child-level-card .age-range {
+  font-size: 0.9em;
+  color: #e74c3c; /* A striking red for the age range */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.child-level-card .description {
+  font-size: 1em;
+  color: #555; /* A standard dark gray for the description */
+}

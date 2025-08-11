@@ -1,0 +1,54 @@
+/* src/components/CardStyles.css */
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.card-container {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff9a;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card-container:hover {
+    transform: translateY(-3px);
+    background-color: #c4d2e19c; /* A subtle light gray to show a change */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* A more prominent shadow on hover */
+}
+
+.card-title-lesson {
+    color: #007bff; /* Blue for lessons */
+    margin-bottom: 8px;
+    font-size: 1.2em;
+}
+
+.card-title-video {
+    color: #28a745; /* Green for videos */
+    margin-bottom: 8px;
+    font-size: 1.2em;
+}
+
+.card-title-game {
+    color: #ffc107; /* Yellow for games */
+    margin-bottom: 8px;
+    font-size: 1.2em;
+}
+
+.card-description {
+    color: #555;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.card-meta {
+    color: #777;
+    font-size: 0.85em;
+    margin-top: 10px;
+}

@@ -1,0 +1,44 @@
+/* src/pages/HomePage.css */
+
+.home-page-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  background-color: rgba(214, 239, 244, 0.776); /* A semi-transparent white for a clean look */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.about-section,
+.intro-section {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.about-section h2,
+.intro-section h3,
+.cards-section h3 {
+  font-size: 2.5em;
+  color: #0a0d10ed; /* A modern dark blue-gray for headings */
+  margin-bottom: 20px;
+}
+
+.about-section p,
+.intro-section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: rgb(35, 16, 26) /* A subtle, readable gray for body text */
+}
+
+.cards-section h3 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.card-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}

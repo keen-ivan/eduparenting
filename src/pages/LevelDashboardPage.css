@@ -1,0 +1,66 @@
+/* src/pages/LevelDashboardPage.css */
+
+.dashboard-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: rgba(214, 239, 244, 0.776); /* Semi-transparent white to see background image */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-title {
+  font-size: 2.5em;
+  color: #0d1217d9; /* Dark blue for a professional look */
+  margin-bottom: 5px;
+}
+
+.dashboard-subtitle {
+  font-size: 1.2em;
+  color: #0a0c0cd7; /* Subtler gray for the age range */
+}
+
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  background-color: #ecf0f1; /* Light gray background for tabs */
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #34495e;
+  font-weight: bold;
+}
+
+.tab-button:hover {
+  background-color: #bdc3c7; /* Lighter gray on hover */
+}
+
+.tab-button.active {
+  background-color: #3498db; /* Blue for the active tab */
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content-section-title {
+  font-size: 1.8em;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
