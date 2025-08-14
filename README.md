@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# Eduparenting
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📝 Project Description
 
-## Available Scripts
+Eduparenting is a web application designed to be a comprehensive digital assistant for parents, helping them actively participate in and track their children's educational journey. The core problem this project addresses is the challenge parents face in staying organized and engaged with their child's learning, often leading to missed opportunities for support and a lack of clear insight into their progress.
 
-In the project directory, you can run:
+Our proposed solution is a centralized platform where parents can access educational resources, view a child's learning progress through an intuitive dashboard, and manage lessons and activities. The prototype provides a structured, easy-to-use interface that empowers parents to become more effective partners in their child's education.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **User Authentication:** Secure signup, login, and logout functionality for parents.
+* **Level Dashboard:** An interactive dashboard that displays a child's progress through various educational levels.
+* **Lessons Section:** A dedicated area where parents can access and manage a curated list of lessons and educational content.
+* **Progress Tracking:** Visual indicators and reports to show a child's mastery and areas for improvement.
+* **Responsive Design:** The application is optimized for use on both desktop and mobile devices.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Technology Stack
 
-### `npm run build`
+* **Frontend:** React, JavaScript, HTML, Tailwind CSS
+* **Backend:** Node.js, Express.js
+* **Database:** Firestore for real-time data storage
+* **Authentication:** Firebase Authentication
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚙️ Setup Instructions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Follow these steps to get a local copy of the project up and running on your machine.
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You must have the following software installed:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* **Node.js** (version 14 or higher)
+* **npm** (Node Package Manager)
+* **Git**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation Steps
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/](https://github.com/)[YourGitHubUsername]/eduparenting.git
+    ```
 
-## Learn More
+2.  **Navigate into the project directory:**
+    ```bash
+    cd eduparenting
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3.  **Install dependencies:**
+    This project has separate dependencies for the frontend (`client`) and backend (`server`). You'll need to run `npm install` in each directory.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    * **Install backend dependencies:**
+        ```bash
+        cd server
+        npm install
+        ```
 
-### Code Splitting
+    * **Install frontend dependencies:**
+        ```bash
+        cd client
+        npm install
+        ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4.  **Environment Configuration:**
+    This project uses environment variables to handle configuration. Create a `.env` file in the **root** of the project and add your Firebase configuration details.
 
-### Analyzing the Bundle Size
+    * Create a file named `.env`.
+    * Add your Firebase configuration to it:
+        ```env
+        REACT_APP_FIREBASE_API_KEY=[Your_Firebase_API_Key]
+        REACT_APP_FIREBASE_AUTH_DOMAIN=[Your_Firebase_Auth_Domain]
+        REACT_APP_FIREBASE_PROJECT_ID=[Your_Firebase_Project_ID]
+        REACT_APP_FIREBASE_STORAGE_BUCKET=[Your_Firebase_Storage_Bucket]
+        REACT_APP_FIREBASE_MESSAGING_SENDER_ID=[Your_Firebase_Messaging_Sender_ID]
+        REACT_APP_FIREBASE_APP_ID=[Your_Firebase_App_ID]
+        ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5.  **Run the application:**
+    Now you can start both the frontend and backend servers. Open two separate terminal windows.
 
-### Making a Progressive Web App
+    * **Start the backend server:**
+        ```bash
+        # In the server directory
+        npm start
+        ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    * **Start the frontend development server:**
+        ```bash
+        # In the client directory
+        npm start
+        ```
 
-### Advanced Configuration
+The application should now be running on `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🌐 Deployed Solution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can access the live version of the application at the following URL:
 
-### `npm run build` fails to minify
+[Paste your public URL here]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the `LICENSE.md` file for details.
+
+---
+
+## 📧 Contact
+
+If you have any questions or feedback, feel free to reach out to me at:
+
+* **Name:** [Your Name]
+* **Email:** [Your Email Address]
