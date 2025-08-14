@@ -43,7 +43,7 @@ You must have the following software installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[YourGitHubUsername]/eduparenting.git
+    git clone [https://github.com/](https://github.com/)keen-ivan/eduparenting.git
     ```
 
 2.  **Navigate into the project directory:**
@@ -72,12 +72,13 @@ You must have the following software installed:
     * Create a file named `.env`.
     * Add your Firebase configuration to it:
         ```env
-        REACT_APP_FIREBASE_API_KEY=[Your_Firebase_API_Key]
-        REACT_APP_FIREBASE_AUTH_DOMAIN=[Your_Firebase_Auth_Domain]
-        REACT_APP_FIREBASE_PROJECT_ID=[Your_Firebase_Project_ID]
-        REACT_APP_FIREBASE_STORAGE_BUCKET=[Your_Firebase_Storage_Bucket]
-        REACT_APP_FIREBASE_MESSAGING_SENDER_ID=[Your_Firebase_Messaging_Sender_ID]
-        REACT_APP_FIREBASE_APP_ID=[Your_Firebase_App_ID]
+        apiKey: "AIzaSyD__geWwUqdWvENphKD6131C3kAwYSr0II",
+  authDomain: "eduparenting-3b7fa.firebaseapp.com",
+  projectId: "eduparenting-3b7fa",
+  storageBucket: "eduparenting-3b7fa.firebasestorage.app",
+  messagingSenderId: "10027353311",
+  appId: "1:10027353311:web:cfdedc189c69b4cf7b156a",
+  measurementId: "G-09XTLVJBL5"
         ```
 
 5.  **Run the application:**
@@ -103,7 +104,7 @@ The application should now be running on `http://localhost:3000`.
 
 You can access the live version of the application at the following URL:
 
-[Paste your public URL here]
+https://eduparenting-3b7fa.web.app/auth
 
 ---
 
@@ -117,5 +118,5 @@ This project is licensed under the MIT License - see the `LICENSE.md` file for d
 
 If you have any questions or feedback, feel free to reach out to me at:
 
-* **Name:** [Your Name]
-* **Email:** [Your Email Address]
+* **Name:** Mucyo Ivan
+* **Email:** i.mucyo@alustudent.com
